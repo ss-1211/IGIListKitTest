@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1663861C5B30662D70C1F476 /* Pods_IGListKitTestPost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1311A4D370BBD5DA9309525C /* Pods_IGListKitTestPost.framework */; };
+		E35A2AD1230EB575001B23DC /* DWYL_neon2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E35A2AD0230EB574001B23DC /* DWYL_neon2.jpeg */; };
 		E39292B3230D17C700BFEACD /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39292B2230D17C700BFEACD /* Feed.swift */; };
 		E3CF04F9230E352B00F9AAC1 /* UserFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CF04F7230E352B00F9AAC1 /* UserFeedCollectionViewCell.swift */; };
 		E3CF04FA230E352B00F9AAC1 /* UserFeedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CF04F8230E352B00F9AAC1 /* UserFeedCollectionViewCell.xib */; };
@@ -24,6 +25,7 @@
 		1311A4D370BBD5DA9309525C /* Pods_IGListKitTestPost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitTestPost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C25BBCDD6049F8BE9153B79 /* Pods-IGListKitTestPost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitTestPost.release.xcconfig"; path = "Target Support Files/Pods-IGListKitTestPost/Pods-IGListKitTestPost.release.xcconfig"; sourceTree = "<group>"; };
 		711F941AD5F80CBB820B2DEA /* Pods-IGListKitTestPost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitTestPost.debug.xcconfig"; path = "Target Support Files/Pods-IGListKitTestPost/Pods-IGListKitTestPost.debug.xcconfig"; sourceTree = "<group>"; };
+		E35A2AD0230EB574001B23DC /* DWYL_neon2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DWYL_neon2.jpeg; sourceTree = "<group>"; };
 		E39292B2230D17C700BFEACD /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		E3CF04F7230E352B00F9AAC1 /* UserFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedCollectionViewCell.swift; sourceTree = "<group>"; };
 		E3CF04F8230E352B00F9AAC1 /* UserFeedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserFeedCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				E3FEBF88230CEF4000AEAEAD /* Assets.xcassets */,
 				E3FEBF8A230CEF4000AEAEAD /* LaunchScreen.storyboard */,
 				E3FEBF8D230CEF4000AEAEAD /* Info.plist */,
+				E35A2AD0230EB574001B23DC /* DWYL_neon2.jpeg */,
 			);
 			path = IGListKitTestPost;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				E3CF04FA230E352B00F9AAC1 /* UserFeedCollectionViewCell.xib in Resources */,
 				E3FEBF89230CEF4000AEAEAD /* Assets.xcassets in Resources */,
 				E3FEBF87230CEF3900AEAEAD /* Main.storyboard in Resources */,
+				E35A2AD1230EB575001B23DC /* DWYL_neon2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

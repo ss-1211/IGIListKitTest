@@ -14,6 +14,7 @@ class UserFeedCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var userContent: UITextView!
     @IBOutlet weak var postImage: UIImageView!
     
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,7 +27,17 @@ class UserFeedCollectionViewCell: UICollectionViewCell {
         self.userIcon.image = userIcon
         self.userName.text = userName
         self.userContent.text = userContent
-        self.postImage.isHidden = true
+    }
+    //UI部品のValue設定(画像あり)
+    func SetUpImage(userIcon: UIImage, userName: String, userContent: String, postImage: UIImage) {
+        let resizedImage: UIImage = postImage
+        let rect:CGRect = CGRect(x:0, y:0, width:200, height:300)
+        self.userIcon.image = userIcon
+        self.userName.text = userName
+        self.userContent.text = userContent
+        self.postImage.image = postImage
+        self.postImage.frame = rect
+     
     }
     
 

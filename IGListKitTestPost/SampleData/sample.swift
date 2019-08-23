@@ -12,7 +12,10 @@ class SampleData {
     class func initializer() -> [Any] {
         return[
         User(id: "1", icon: UIImage(named: "user")!, userName: "Shun", content: "ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ", postImage:nil, imageExist: .N),
-        User(id: "2", icon: UIImage(named: "user")!, userName: "takuya", content: "いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい", postImage:nil, imageExist: .N)
+        User(id: "2", icon: UIImage(named: "user")!, userName: "takuya", content: "いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい", postImage:nil, imageExist: .N),
+        User(id: "3", icon: UIImage(named: "user")!, userName: "Shun", content: "ちょっとテスト投稿", postImage:UIImage(named: "DWYL_neon2.jpeg"), imageExist: .Y),
+        User(id: "4", icon: UIImage(named: "user")!, userName: "takuya", content: "いいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいいい", postImage:nil, imageExist: .N)
+        
         ] as [Any]
     }
 }

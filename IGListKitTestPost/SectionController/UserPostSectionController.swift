@@ -18,7 +18,11 @@ final class UserPostSectionController: ListSectionController {
     }
     
     override func sizeForItem(at index: Int) -> CGSize {
-        return CGSize(width: collectionContext!.containerSize.width, height: 300)
+        if feed!.isImageExist(){
+         return CGSize(width: collectionContext!.containerSize.width, height: 270)
+        }else{
+        return CGSize(width: collectionContext!.containerSize.width, height: 200)
+        }
     }
     override func cellForItem(at index: Int) -> UICollectionViewCell {
         guard let feed = feed else {
@@ -27,7 +31,7 @@ final class UserPostSectionController: ListSectionController {
         if feed.isImageExist(){
             let cell = collectionContext?.dequeueReusableCell(withNibName: "UserFeedCollectionViewCell", bundle: nil, for: self, at: index) as! UserFeedCollectionViewCell
             //        let cell = collectionContext?.dequeueReusableCell(withNibName: "FeedCell", bundle: nil, for: self, at: index) as! FeedCell
-            cell.noSetUpImage(userIcon: feed.icon, userName: feed.userName, userContent: feed.content)
+            cell.SetUpImage(userIcon: feed.icon, userName: feed.userName, userContent: feed.content, postImage: feed.postImage!)
             return cell
         }else{
             let cell = collectionContext?.dequeueReusableCell(withNibName: "UserFeedCollectionViewCell", bundle: nil, for: self, at: index) as! UserFeedCollectionViewCell
