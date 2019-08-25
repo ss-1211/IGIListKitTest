@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1663861C5B30662D70C1F476 /* Pods_IGListKitTestPost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1311A4D370BBD5DA9309525C /* Pods_IGListKitTestPost.framework */; };
+		E3174162230F774C00168CDC /* UserBalloonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3174161230F774C00168CDC /* UserBalloonView.swift */; };
+		E3174165230FA75800168CDC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3174163230FA75800168CDC /* TableViewCell.swift */; };
+		E3174166230FA75900168CDC /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3174164230FA75800168CDC /* TableViewCell.xib */; };
+		E3174168230FA7F000168CDC /* StackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3174167230FA7F000168CDC /* StackTableViewController.swift */; };
 		E35A2AD1230EB575001B23DC /* DWYL_neon2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E35A2AD0230EB574001B23DC /* DWYL_neon2.jpeg */; };
 		E39292B3230D17C700BFEACD /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39292B2230D17C700BFEACD /* Feed.swift */; };
 		E3CF04F9230E352B00F9AAC1 /* UserFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CF04F7230E352B00F9AAC1 /* UserFeedCollectionViewCell.swift */; };
@@ -25,6 +29,10 @@
 		1311A4D370BBD5DA9309525C /* Pods_IGListKitTestPost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitTestPost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C25BBCDD6049F8BE9153B79 /* Pods-IGListKitTestPost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitTestPost.release.xcconfig"; path = "Target Support Files/Pods-IGListKitTestPost/Pods-IGListKitTestPost.release.xcconfig"; sourceTree = "<group>"; };
 		711F941AD5F80CBB820B2DEA /* Pods-IGListKitTestPost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitTestPost.debug.xcconfig"; path = "Target Support Files/Pods-IGListKitTestPost/Pods-IGListKitTestPost.debug.xcconfig"; sourceTree = "<group>"; };
+		E3174161230F774C00168CDC /* UserBalloonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBalloonView.swift; sourceTree = "<group>"; };
+		E3174163230FA75800168CDC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E3174164230FA75800168CDC /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		E3174167230FA7F000168CDC /* StackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTableViewController.swift; sourceTree = "<group>"; };
 		E35A2AD0230EB574001B23DC /* DWYL_neon2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DWYL_neon2.jpeg; sourceTree = "<group>"; };
 		E39292B2230D17C700BFEACD /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		E3CF04F7230E352B00F9AAC1 /* UserFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -109,6 +117,9 @@
 				E3FEBF8A230CEF4000AEAEAD /* LaunchScreen.storyboard */,
 				E3FEBF8D230CEF4000AEAEAD /* Info.plist */,
 				E35A2AD0230EB574001B23DC /* DWYL_neon2.jpeg */,
+				E3174163230FA75800168CDC /* TableViewCell.swift */,
+				E3174167230FA7F000168CDC /* StackTableViewController.swift */,
+				E3174164230FA75800168CDC /* TableViewCell.xib */,
 			);
 			path = IGListKitTestPost;
 			sourceTree = "<group>";
@@ -126,6 +137,7 @@
 			children = (
 				E3FEBF85230CEF3900AEAEAD /* Main.storyboard */,
 				E3FEBF83230CEF3900AEAEAD /* ViewController.swift */,
+				E3174161230F774C00168CDC /* UserBalloonView.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -207,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3FEBF8C230CEF4000AEAEAD /* LaunchScreen.storyboard in Resources */,
+				E3174166230FA75900168CDC /* TableViewCell.xib in Resources */,
 				E3CF04FA230E352B00F9AAC1 /* UserFeedCollectionViewCell.xib in Resources */,
 				E3FEBF89230CEF4000AEAEAD /* Assets.xcassets in Resources */,
 				E3FEBF87230CEF3900AEAEAD /* Main.storyboard in Resources */,
@@ -264,7 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3CF04FC230E3E4F00F9AAC1 /* sample.swift in Sources */,
+				E3174165230FA75800168CDC /* TableViewCell.swift in Sources */,
+				E3174162230F774C00168CDC /* UserBalloonView.swift in Sources */,
 				E3FEBF84230CEF3900AEAEAD /* ViewController.swift in Sources */,
+				E3174168230FA7F000168CDC /* StackTableViewController.swift in Sources */,
 				E39292B3230D17C700BFEACD /* Feed.swift in Sources */,
 				E3CF04F9230E352B00F9AAC1 /* UserFeedCollectionViewCell.swift in Sources */,
 				E3CF04FE230E76B500F9AAC1 /* UserPostSectionController.swift in Sources */,

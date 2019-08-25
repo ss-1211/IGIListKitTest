@@ -19,7 +19,7 @@ final class UserPostSectionController: ListSectionController {
     
     override func sizeForItem(at index: Int) -> CGSize {
         if feed!.isImageExist(){
-         return CGSize(width: collectionContext!.containerSize.width, height: 270)
+         return CGSize(width: collectionContext!.containerSize.width, height: 350)
         }else{
         return CGSize(width: collectionContext!.containerSize.width, height: 200)
         }
